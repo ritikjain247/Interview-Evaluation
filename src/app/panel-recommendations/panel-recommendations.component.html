@@ -1,0 +1,26 @@
+<div class="container">
+    <h4>{{level}} Interview Panel Recommendations</h4>
+    <div class="form-group" [formGroup]="panelRecommendation">
+        <table class="table table-dark">
+            <tbody>
+                <tr>
+                    <th scope="row">Selection Recommendation</th>
+                    <th scope="row">Level Recommended</th>
+                    <th scope="row">R Number of Selection</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="form-control" formControlName="recommendation">
+                            <option>Selected</option>
+                            <option>Rejected</option>
+                            <option>Recommended for other project</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="form-control" id="" formControlName="recommendationLevel"></td>
+                    <td><input type="text" class="form-control" id="" formControlName="recommendationNumber"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
