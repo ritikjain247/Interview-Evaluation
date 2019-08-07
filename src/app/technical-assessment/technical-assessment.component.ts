@@ -12,7 +12,7 @@ export class TechnicalAssessmentComponent implements OnInit {
     specialisationRating: new FormControl(''),
     specialisationRemarks: new FormControl(''),
   });
-  public level = 1;
+  public level = 3;
   specialisations = [{}];
   l2specialisationNames = ['Academic Background', 'Interpersonal Skills', 'Analytical Skills', 'Functional/Technical Skills', 'Leadership Skills', 'Personal Motivation, Self-COnfidence and Adaptability', 'Communication Skills', 'Attitude and Presentability', 'Presentation SKills', 'Overall Rating'];
   constructor() { }
